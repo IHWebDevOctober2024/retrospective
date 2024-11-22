@@ -13,11 +13,12 @@ body {
   background: linear-gradient(180deg, #002642, #00a698);
 }
 
-#sections-container {
+.sections-container {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   gap: 2rem;
+  margin-bottom: 2rem;
 }
 
 section {
